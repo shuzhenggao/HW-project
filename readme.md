@@ -88,10 +88,3 @@ An example of the content in seed_prompt.txt:
 Generate comprehensive unit tests for the provided Java methods, ensuring they cover both regular operation and edge cases. Test names should be descriptive, reflecting the scenarios being tested, and assertions must confirm that the method's output matches the expected results. Include tests for the examples outlined in the method's documentation to ensure accurate validation of functionality.
 You will be provided with the focal method, its import statements, and the class signature. Your responsibility is to create a maximum of 10 test cases for this focal method to guarantee comprehensive test coverage. \nPlease provide the necessary details for the focal method, such as its name, input parameters, expected output, and any additional context. With this information, I will generate the corresponding test cases to enhance the coverage of your focal method.
 ```
-
-
-
-
-Lang-1: org.apache.commons.lang3.math.NumberUtils.createNumber
-Math-5: org.apache.commons.math3.complex.Complex.reciprocal
-Time-4: org.joda.time.Partial.with
