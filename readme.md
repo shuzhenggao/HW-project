@@ -78,9 +78,9 @@ An example of using LLMs:
 python auto_prompt.py --seed_number 5 --iteration_number 5 --max_test_cases 10 --generated_number 2 --seed_prompt_addr seed_prompt.txt --model_name gpt-3.5-turbo-0125 --model_api sk-xxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-An example of using open source models (CodeLlama):
+An example of using open source models (Deepseek-coder):
 ```python
-python auto_prompt.py --seed_number 5 --iteration_number 5 --max_test_cases 10 --generated_number 2 --seed_prompt_addr seed_prompt.txt --model_name CodeLlama-34b-Instruct-hf --model_api sk-xxxxxxxxxxxxxxxxxxxxxxxx
+python auto_prompt.py --seed_number 5 --iteration_number 5 --max_test_cases 10 --generated_number 2 --seed_prompt_addr seed_prompt.txt --model_name deepseek-ai/deepseek-coder-33b-instruct --model_api sk-xxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 An example of the content in seed_prompt.txt:
