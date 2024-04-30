@@ -53,7 +53,7 @@ If you want to use LLMs of OpenAI and Google by API service. Please first obtain
 
 It is recommended to use the API service for seed prompt generation.
 
-Fill the config.yaml
+Change the parameters
 ----------------
 
 - seed_number: number of seed prompts.
