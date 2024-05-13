@@ -190,8 +190,8 @@ def api_official(cfg, chunk_data):
             fail_count = 0
             while success!=1:
                 messages = [
-                    {"role": "user", "parts": ["You are a software developer and now you will help to write unit cases. Please follow the instructions and reply with the unit cases in code blocks (```java ```). Please do not reply with over {} test cases.".format(cfg.max_test_cases)]},
-                    {'role':'model','parts':['OK, I will help you improve code efficiency.']},
+                    {"role": "user", "parts": ["You are a software developer and now you will help to write unit tests. Please follow the instructions and reply with the unit cases in code blocks (```java ```). Please do not reply with over {} test cases.".format(cfg.max_test_cases)]},
+                    {'role':'model','parts':['OK, I will help you write unit test.']},
                     {"role": "user", "parts": [prompt]},
                 ]
                 try:
